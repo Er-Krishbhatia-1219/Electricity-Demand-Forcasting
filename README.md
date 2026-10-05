@@ -66,14 +66,17 @@ Raw columns include electricity demand, timestamp, temperature, dew point, humid
 
 ## Repository structure
 
+## Project Structure
+
 ```text
-Electricity Demand Forcasting/
-├── Data/
-│   └── Power_Demand_2021-2024.csv
+Electricity-Demand-Forcasting/
+│
 ├── Model/
 │   └── Electricity Demand Prediction Model.pkl
+│
 ├── Notebook/
 │   └── Electricity Demand Forcasting.ipynb
+│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
