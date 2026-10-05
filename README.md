@@ -82,8 +82,8 @@ Electricity Demand Forcasting/
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/electricity-demand-forecasting.git
-cd electricity-demand-forecasting
+git clone https://github.com/<Er-Krishbhatia-1219>/Electricity-Demand-Forecasting.git
+cd Dlectricity-Demand-Forecasting
 python -m venv .venv
 ```
 
