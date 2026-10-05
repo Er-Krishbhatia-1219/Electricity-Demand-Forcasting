@@ -34,7 +34,8 @@ The model's features use only calendar attributes, temperature, and historical d
 
 ## Dataset overview
 
-The included dataset contains 393,440 five-minute demand observations with weather and calendar fields.
+**The notebook is configured to work with the original dataset. Since the raw dataset is excluded from the repository due to its size, obtain the dataset separately and update the data-loading path if necessary.**
+**"The original dataset contains 393,440 five-minute demand observations..."**
 
 | Statistic | Electricity demand | Temperature |
 | --- | ---: | ---: |
@@ -64,8 +65,6 @@ Raw columns include electricity demand, timestamp, temperature, dew point, humid
 | Calendar | `Year`, `Month`, `Day`, `Hour`, `Minute`, `Week`, `Day_of_week`, `Is_Weekend` |
 | Demand history | `Lag_5min`, `Lag_1hour`, `Lag_1day`, `Lag_1week`, `mean_last_hour` |
 
-## Repository structure
-
 ## Project Structure
 
 ```text
@@ -76,7 +75,8 @@ Electricity-Demand-Forcasting/
 │
 ├── Notebook/
 │   └── Electricity Demand Forcasting.ipynb
-│
+├── Presentation/
+│   └── Electricity Demand Forcasting Presentation.pptx
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -84,16 +84,20 @@ Electricity-Demand-Forcasting/
 
 ## Getting started
 
+Clone the repository:
+
 ```bash
-git clone https://github.com/<Er-Krishbhatia-1219>/Electricity-Demand-Forecasting.git
-cd Electricity-Demand-Forecasting
+git clone https://github.com/Er-Krishbhatia-1219/Electricity-Demand-Forcasting.git
+cd Electricity-Demand-Forcasting
+
+Create a virtual environment:
 python -m venv .venv
-```
 
 Activate the environment, then install dependencies:
-
-```bash
+.venv\Scripts\activate
 pip install -r requirements.txt
+
+Launch the notebook:
 jupyter notebook "Notebook/Electricity Demand Forcasting.ipynb"
 ```
 
@@ -126,4 +130,5 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · XGBoost ·
 
 ## Author
 
-Krish Bhatia - Data Scientist
+**Krish Bhatia**  
+Computer Science Engineering Student | Aspiring Data Scientist
