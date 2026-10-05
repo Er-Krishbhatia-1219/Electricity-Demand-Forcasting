@@ -126,5 +126,4 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · XGBoost ·
 
 ## Author
 
-Krish Bhatia
-Data Scientist
+Krish Bhatia - Data Scientist
