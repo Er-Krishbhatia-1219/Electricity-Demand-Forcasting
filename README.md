@@ -72,7 +72,6 @@ Electricity-Demand-Forcasting/
 │
 ├── Model/
 │   └── Electricity Demand Prediction Model.pkl
-│
 ├── Notebook/
 │   └── Electricity Demand Forcasting.ipynb
 ├── Presentation/
